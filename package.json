@@ -1,9 +1,14 @@
 {
   "name": "newversionyelp",
   "version": "1.0.0",
-  "private": true,
   "description": "Updated",
   "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Ismoil Hasanov",
+  "license": "ISC",
   "dependencies": {
     "@mapbox/mapbox-sdk": "^0.11.0",
     "cloudinary": "^1.23.0",
@@ -22,12 +27,6 @@
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.0.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-    "start": "node app.js"
-  },
-  "author": "Ismoil Hasanov",
-  "license": "ISC"
+  }
 }
+ 
